@@ -1,0 +1,59 @@
+.country-detail {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .flag-detail {
+    width: 500px;
+    height: auto;
+    max-height: 200px;
+  }
+  
+  .country-detail p {
+    font-size: 1.2rem;
+  }
+  
+  .country-detail h1 {
+    margin-bottom: 20px;
+  }
+  
+  .go-back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .go-back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+@media (max-width: 768px) {
+  .country-detail {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .flag-detail {
+    width: 100%;
+    max-height: none;
+  }
+
+  .country-detail p {
+    font-size: 1rem;
+  }
+
+  .country-detail h1 {
+    font-size: 1.5rem;
+  }
+
+  .go-back-button {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
